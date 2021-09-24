@@ -1,5 +1,5 @@
 {% set name = "pyannote.core" %}
-{% set version = "4.1" %}
+{% set version = "4.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyannote.core-{{ version }}.tar.gz
-  sha256: 841af7b6119a5846b62ac6fccdcad9f1bce32b48e388cc9174657ad743151dea
+  sha256: 47265e3b27bddb16474f291655fbfdc462c297c9a6d76321963189c61f96acc2
 
 build:
   number: 0
