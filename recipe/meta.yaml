@@ -11,19 +11,19 @@ source:
   sha256: 1a55bcc8bd680ba6be5fa53efa3b6f3d2cdd67144c07b6b4d8d66d5cb0d2096f
 
 build:
+  noarch: python
   number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python
+    - python >=3.7
   run:
-    - dataclasses >=0.7  # [py<37]
     - matplotlib-base >=2.0.0
     - numpy >=1.10.4
     - pandas >=0.17.1
-    - python
+    - python >=3.7
     - scipy >=1.1
     - simplejson >=3.8.1
     - sortedcontainers >=2.0.4
