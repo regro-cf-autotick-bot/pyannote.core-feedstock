@@ -1,5 +1,5 @@
 {% set name = "pyannote.core" %}
-{% set version = "5.0.0" %}
+{% set version = "6.1.0" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyannote.core-{{ version }}.tar.gz
-  sha256: 1a55bcc8bd680ba6be5fa53efa3b6f3d2cdd67144c07b6b4d8d66d5cb0d2096f
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pyannote_core-{{ version }}.tar.gz
+  sha256: c2933aeb406d7d9ac2e182343ac995bec08e4bba83f8b7e46db2b38b03ecca22
 
 build:
   noarch: python
